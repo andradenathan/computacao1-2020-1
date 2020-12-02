@@ -59,6 +59,11 @@ def mediaPonderada():
     return print(f'A média ponderada do estudante é: {mediaPond}')
 
 # EXERCÍCIO 07
+def diferenca(q, n):
+    # Calcula o erro de aproximação (a diferença) entre uma sequência infinita e uma sequência finita de uma PG
+    # Sendo que 0 <= q < 1
+    erro = 1 + (1 - (q ** n)) / 1 - q
+    return print(f'O erro entre o valor da soma de uma PG infinita e dos seus n primeiros termos é: {erro}')
 
 # EXERCÍCIO 08
 def gorjeta(conta):
@@ -139,7 +144,7 @@ def dist():
 # mediaPonderada()
 
 # EXERCÍCIO 07
-#
+# diferenca(0.5, 3)
 
 # EXERCÍCIO 08
 # gorjeta(valorDaConta)
