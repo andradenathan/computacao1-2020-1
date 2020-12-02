@@ -1,4 +1,7 @@
 def saldoFinal():
+    """Função que calcula o saldo final de uma conta dado seu valor inicial, taxa de juros em %
+    e a quantidade de meses que a mesma será paga"""
+
     saldoInicial = float(input('Digite o valor da conta inicial: R$ '))
     numMeses = float(input('Número de meses: '))
     juros = float(input('Taxa de juros mensal em %: '))

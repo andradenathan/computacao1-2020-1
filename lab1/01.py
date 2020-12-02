@@ -1,5 +1,5 @@
 def areaRetangulo(a, b):
-    # Calcula a área do retângulo dado seus dois lados
+    """Calcula a área do retângulo dado seus dois lados"""
     x = a * b
     return print(f'A área do retângulo é: {x}m²')
 

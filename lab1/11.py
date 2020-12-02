@@ -1,11 +1,12 @@
 def dist():
-    # Calcula a distância que a correnteza arrasta um barco que estava atravessando um rio
+    """Calcula a distância que a correnteza arrasta um barco que estava atravessando um rio"""
+
     velBarco = float(input('Digite a velocidade do barco: '))
     velCorrenteza = float(input('Digite a velocidade da correnteza: '))
     larguraRio = float(input('Digite o tamanho da largura do rio: '))
 
-    # Unidade da equação validada pois a velocidade da correnteza é perpendicular à velocidade do barco e
-    # m/s cortará com m/s, então, só teremos m da largura do rio
+    """Unidade da equação validada pois a velocidade da correnteza é perpendicular à velocidade do barco e 
+    m/s cortará com m/s, então, só teremos m da largura do rio"""
 
     distancia = (velCorrenteza/velBarco) * larguraRio
 

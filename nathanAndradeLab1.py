@@ -2,34 +2,38 @@
 
 # EXERCÍCIO 01
 def areaRetangulo(a, b):
-    # Calcula a área do retângulo dado seus dois lados
+    """Calcula a área do retângulo dado seus dois lados"""
     x = a * b
     return print(f'A área do retângulo é: {x}m²')
 
 # EXERCÍCIO 02
 def areaCubo(c):
-    # Calcula a área de um cubo que tem c por aresta
+    """Calcula a área de um cubo que tem c por aresta"""
+
     A = 6 * (c ** 2)
     return print(f'A área do cubo é: {A}m²')
 
 # EXERCÍCIO 03
 def areaCoroaCircular(r1, r2):
-    # Calcula a área da coroa circular dado r1 e r2
-    Acc = 3.14 * (r1 ** 2 - (r2 ** 2))
-    return print(f'A área da coroa circular é {Acc}m²')
+    """Calcula a área da coroa circular dado r1 e r2
+    tal que r1 > r2"""
+
+    areaDaCoroa = 3.14 * (r1 ** 2 - (r2 ** 2))
+    return print(f'A área da coroa circular é {areaDaCoroa}m²')
 
 # EXERCÍCIO 04
-def media():
-    # Calcula a média de dois números e retorna printando na tela os seus valores
-    n1 = float(input('Primeiro número: '))
-    n2 = float(input('Segundo número: '))
+def media(n1, n2):
+    """Calcula a média de dois números e retorna printando na tela os seus valores"""
+
     media = (n1 + n2) / 2
 
     return print(f'A média de {n1} e {n2} é: {media}')
 
 # EXERCÍCIO 05
 def funcaoSegundoGrau():
-    # Calcula a solução de uma função do segundo grau dado seus valores a, b, c e sua abscissa
+    """Dado um valor para a, b, c e a sua abscissa, a função retornará a solução dessa
+     equação do 2º grau."""
+
     print('FUNÇÃO DO SEGUNDO GRAU')
     print('ax² + bx + c = 0')
 
@@ -38,21 +42,21 @@ def funcaoSegundoGrau():
     c = float(input('Digite a constante c da função: '))
     x = float(input('Digite um valor para a abscissa: '))
 
-    solution = a * (x ** 2) + (b * x) + c
+    solucao = a * (x ** 2) + (b * x) + c
 
     return print(f'A solução da função f(x) = {a} x ({x})² + {b} x {x} + {c} é:\n'
-                 f'{solution}')
+                 f'{solucao}')
 
 # EXERCÍCIO 06
 def mediaPonderada():
-    # Cálculo da média ponderada de um estudante durante seus 4 bimestres
-    # O peso das notas estão relacionados diretamente com os respectivos bimestres
+    """Cálculo da média ponderada de um estudante durante seus 4 bimestres,
+    o peso das notas estão relacionados diretamente com os respectivos bimestres"""
 
     bim01 = float(input('Digite a nota do 1º bimestre: '))
     bim02 = float(input('Digite a nota do 2º bimestre: '))
     bim03 = float(input('Digite a nota do 3º bimestre: '))
     bim04 = float(input('Digite a nota do 4º bimestre: '))
-    denominador = 10 # 1 + 2 + 3 + 4 = 10
+    denominador = 10  # 1 + 2 + 3 + 4 = 10
 
     mediaPond = ((bim01 * 1) + (bim02 * 2) + (bim03 * 3) + (bim04 * 4)) / denominador
 
@@ -60,15 +64,16 @@ def mediaPonderada():
 
 # EXERCÍCIO 07
 def diferenca(q, n):
-    # Calcula o erro de aproximação (a diferença) entre uma sequência infinita e uma sequência finita de uma PG
-    # Sendo que 0 <= q < 1
+    """Calcula o erro de aproximação (a diferença) entre uma sequência infinita e uma sequência finita
+    de uma PG, sendo que 0 <= q < 1"""
+
     erro = 1 + (1 - (q ** n)) / 1 - q
     return print(f'O erro entre o valor da soma de uma PG infinita e dos seus n primeiros termos é: {erro}')
 
 # EXERCÍCIO 08
 def gorjeta(conta):
-    # Função que calcula e retorna o quanto um garçom receberia de gorjeta dado o
-    # valor da conta do restaurante
+    """Calcula e retorna o quanto um garçom receberia de gorjeta dado o
+     valor da conta do restaurante"""
 
     gorjetaGarcom = conta * (10 / 100)
 
@@ -77,7 +82,7 @@ def gorjeta(conta):
 
 # EXERCÍCIO 09
 def gorjetaLegislativa():
-    # Calcula a gorjeta de um garçom dado o valor da conta e a gorjeta definida pela legislação
+    """Calcula a gorjeta legislativa de um garçom dado o valor da conta"""
     conta = float(input('Digite o valor da conta: R$ '))
     gorjeta = float(input('Digite o valor da gorjeta em % (Ex: 10%): '))
 
@@ -88,7 +93,9 @@ def gorjetaLegislativa():
 
 # EXERCÍCIO 10
 def saldoFinal():
-    # Calcula o valor total de uma conta dado seu valor inicial, taxa de juros em % e o núm de meses
+    """Função que calcula o saldo final de uma conta dado seu valor inicial, taxa de juros em %
+    e a quantidade de meses que a mesma será paga"""
+
     saldoInicial = float(input('Digite o valor da conta inicial: R$ '))
     numMeses = float(input('Número de meses: '))
     juros = float(input('Taxa de juros mensal em %: '))
@@ -103,13 +110,13 @@ def saldoFinal():
 
 # EXERCÍCIO 11
 def dist():
-    # Calcula a distância que a correnteza arrasta um barco que estava atravessando um rio
+    """Calcula a distância que a correnteza arrasta um barco que estava atravessando um rio"""
     velBarco = float(input('Digite a velocidade do barco: '))
     velCorrenteza = float(input('Digite a velocidade da correnteza: '))
     larguraRio = float(input('Digite o tamanho da largura do rio: '))
 
-    # Unidade da equação validada pois a velocidade da correnteza é perpendicular à velocidade do barco e
-    # m/s cortará com m/s, então, só teremos m da largura do rio
+    """Unidade da equação validada pois a velocidade da correnteza é perpendicular à velocidade do barco e 
+    m/s cortará com m/s, então, só teremos m da largura do rio"""
 
     distancia = (velCorrenteza/velBarco) * larguraRio
 
@@ -135,7 +142,7 @@ def dist():
 # areaCoroaCircular(100, 0)
 
 # EXERCÍCIO 04
-# media()
+# media(5, 2)
 
 # EXERCÍCIO 05
 # funcaoSegundoGrau()
@@ -147,7 +154,7 @@ def dist():
 # diferenca(0.5, 3)
 
 # EXERCÍCIO 08
-# gorjeta(valorDaConta)
+# gorjeta(1300)
 
 # EXERCÍCIO 09
 # gorjetaLegislativa()

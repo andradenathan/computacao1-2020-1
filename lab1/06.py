@@ -1,6 +1,6 @@
 def mediaPonderada():
-    # Cálculo da média ponderada de um estudante durante seus 4 bimestres
-    # O peso das notas estão relacionados diretamente com os respectivos bimestres
+    """Cálculo da média ponderada de um estudante durante seus 4 bimestres,
+    o peso das notas estão relacionados diretamente com os respectivos bimestres"""
 
     bim01 = float(input('Digite a nota do 1º bimestre: '))
     bim02 = float(input('Digite a nota do 2º bimestre: '))

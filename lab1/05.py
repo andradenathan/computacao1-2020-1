@@ -1,4 +1,7 @@
 def funcaoSegundoGrau():
+    """Dado um valor para a, b, c e a sua abscissa, a função retornará a solução dessa
+     equação do 2º grau."""
+
     print('FUNÇÃO DO SEGUNDO GRAU')
     print('ax² + bx + c = 0')
 
@@ -7,10 +10,10 @@ def funcaoSegundoGrau():
     c = float(input('Digite a constante c da função: '))
     x = float(input('Digite um valor para a abscissa: '))
 
-    solution = a * (x ** 2) + (b * x) + c
+    solucao = a * (x ** 2) + (b * x) + c
 
     return print(f'A solução da função f(x) = {a} x ({x})² + {b} x {x} + {c} é:\n'
-                 f'{solution}')
+                 f'{solucao}')
 
 funcaoSegundoGrau()
 
