@@ -1,20 +1,20 @@
 # Laboratório 1
 
 # EXERCÍCIO 01
-def areaRetangulo(a, b):
+def areaRetangulo(a: float, b: float):
     """Calcula a área do retângulo dado seus dois lados"""
     x = a * b
     return print(f'A área do retângulo é: {x}m²')
 
 # EXERCÍCIO 02
-def areaCubo(c):
+def areaCubo(c: float):
     """Calcula a área de um cubo que tem c por aresta"""
 
     A = 6 * (c ** 2)
     return print(f'A área do cubo é: {A}m²')
 
 # EXERCÍCIO 03
-def areaCoroaCircular(r1, r2):
+def areaCoroaCircular(r1: float, r2: float):
     """Calcula a área da coroa circular dado r1 e r2
     tal que r1 > r2"""
 
@@ -22,7 +22,7 @@ def areaCoroaCircular(r1, r2):
     return print(f'A área da coroa circular é {areaDaCoroa}m²')
 
 # EXERCÍCIO 04
-def media(n1, n2):
+def media(n1: float, n2: float):
     """Calcula a média de dois números e retorna printando na tela os seus valores"""
 
     media = (n1 + n2) / 2
@@ -63,7 +63,7 @@ def mediaPonderada():
     return print(f'A média ponderada do estudante é: {mediaPond}')
 
 # EXERCÍCIO 07
-def diferenca(q, n):
+def diferenca(q: float, n: int):
     """Calcula o erro de aproximação (a diferença) entre uma sequência infinita e uma sequência finita
     de uma PG, sendo que 0 <= q < 1"""
 
@@ -71,7 +71,7 @@ def diferenca(q, n):
     return print(f'O erro entre o valor da soma de uma PG infinita e dos seus n primeiros termos é: {erro}')
 
 # EXERCÍCIO 08
-def gorjeta(conta):
+def gorjeta(conta: float):
     """Calcula e retorna o quanto um garçom receberia de gorjeta dado o
      valor da conta do restaurante"""
 
@@ -115,10 +115,10 @@ def dist():
     velCorrenteza = float(input('Digite a velocidade da correnteza: '))
     larguraRio = float(input('Digite o tamanho da largura do rio: '))
 
-    """Unidade da equação validada pois a velocidade da correnteza é perpendicular à velocidade do barco e 
-    m/s cortará com m/s, então, só teremos m da largura do rio"""
-
     distancia = (velCorrenteza/velBarco) * larguraRio
+
+    #Unidade da equação validada pois a velocidade da correnteza é perpendicular à velocidade do barco e
+    # m/s cortará com m/s, então, só teremos m da largura do rio
 
     return print(f'Velocidade da correnteza: {velCorrenteza} m/s\n'
                  f'Velocidade do barco: {velBarco} m/s\n'
