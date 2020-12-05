@@ -38,4 +38,3 @@ def somaMenorComMedia(número1, número2, número3):
     :return: int, float
     """
     return min(número1, número2, número3) + mediaTresNumeros(número1, número2, número3)
-

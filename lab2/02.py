@@ -1,7 +1,6 @@
 from math import sqrt
 
 # EXERCÍCIO 02 - a
-
 def delta(a, b, c):
     """
     Calcula o delta de uma função do segundo grau e retorna a solução do polinômio
@@ -16,11 +15,23 @@ def delta(a, b, c):
     return discriminante
 
 def raizPositiva(a, b, c):
-    x1 = - b + sqrt(delta(a, b, c)) / 2 * a
+    """
+    Calcula a raíz positiva de uma equação do segundo grau dado a, b e c
+    :param a: int, float
+    :param b: int, float
+    :param c: int, float
+    :return: int, float
+    """
+    x1 = b * (-1) + sqrt(delta(a, b, c)) / 2 * a
     return x1
 
 def raizNegativa(a, b, c):
+    """
+    Calcula a raíz negativa de uma equação do segundo grau dado a, b, e c
+    :param a:
+    :param b:
+    :param c:
+    :return:
+    """
     x2 = b * (-1) - sqrt(delta(a, b, c)) / 2 * a
     return x2
-
-
