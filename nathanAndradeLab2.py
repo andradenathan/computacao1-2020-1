@@ -24,24 +24,24 @@ def mediaTresNumeros(n1, n2, n3):
     return media
 
 # EXERCÍCIO 01 - c
-def diferencaComMedia(número1, número2, número3):
+def diferencaComMedia(numero1, numero2, numero3):
     """Calcula a diferença entre o valor máximo dado três números com a sua média
     :param número1: int, float
     :param número2: int, float
     :param número3: int, float
     :return: int, float
     """
-    return max(número1, número2, número3) - mediaTresNumeros(número1, número2, número3)
+    return max(numero1, numero2, numero3) - mediaTresNumeros(numero1, numero2, numero3)
 
 # EXERCÍCIO 01 - d
-def somaMenorComMedia(número1, número2, número3):
+def somaMenorComMedia(numero1, numero2, numero3):
     """Calcula a média e soma com o menor número dado três valores
     :param número1: int, float
     :param número2: int, float
     :param número3: int, float
     :return: int, float
     """
-    return min(número1, número2, número3) + mediaTresNumeros(número1, número2, número3)
+    return min(numero1, numero2, numero3) + mediaTresNumeros(numero1, numero2, numero3)
 
 # EXERCÍCIO 02 - a
 def delta(a, b, c):
@@ -56,6 +56,7 @@ def delta(a, b, c):
     discriminante = (b ** 2) - 4 * (a * c)
 
     return discriminante
+
 def raizPositiva(a, b, c):
     """
     Calcula a raíz positiva de uma equação do segundo grau dado a, b e c
@@ -180,7 +181,7 @@ def setorCircular(raio, angulo=360):
 # EXERCÍCIO 06
 def comprarBombom(valor, carteira):
     qtdBombom = carteira / valor
-    return print(f'Pedrinho consegue comprar {qtdBombom} bombons')
+    return round(qtdBombom)
 
 # EXERCÍCIO 07
 def imc(altura, peso):
@@ -200,7 +201,7 @@ def rodoviaria(pessoas):
     :param pessoas: int, float -> Capacidade máxima de pessoas = 5
     :return:
     """
-    return print(f'{(pessoas / 5):.1F}')
+    return ceil(pessoas / 5)
 
 # EXERCÍCIO 09
 def corrida(r, dist):
@@ -210,7 +211,7 @@ def corrida(r, dist):
     :param dist: int, float -> Distância percorrida
     :return: int, float -> Distância percorrida na pista
     """
-    return print(f'Foi percorrido {dist / comprimentoCirculo(r):.3F}m')
+    return dist / comprimentoCirculo(r)
 
 # EXERCÍCIO 10
 def fazerBolo(A=2, B=3, C=5):
@@ -262,13 +263,13 @@ def fazerBolo(A=2, B=3, C=5):
 # print(setorCircular(45, 4))
 
 # EXERCÍCIO 06
-# comprarBombom(2, 50)
+# print(comprarBombom(2, 50))
 
 # EXERCÍCIO 07
 # print(imc(1.8, 80))
 
 # EXERCÍCIO 08
-# rodoviaria(3)
+# print(rodoviaria(3))
 
 # EXERCÍCIO 09
 # corrida(15, 200)

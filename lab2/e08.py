@@ -1,3 +1,5 @@
+from math import ceil
+
 # EXERCÍCIO 08
 def rodoviaria(pessoas):
     """
@@ -6,6 +8,6 @@ def rodoviaria(pessoas):
     :param pessoas: int, float -> Capacidade máxima de pessoas = 5
     :return:
     """
-    return print(f'{(pessoas / 5):.1F}')
+    return ceil(pessoas / 5)
 
-rodoviaria(4)
+print(rodoviaria(55))
