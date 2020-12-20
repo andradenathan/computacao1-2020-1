@@ -30,9 +30,10 @@ def classificacao(C, Ce, Cs, Fv, Fe, Fs):
             return 'Empate'
 
     else:
-
         if pontosFla > pontosCor:
             return 'Flaminthias'
 
         else:
             return 'Cormengo'
+
+print(classificacao(11, 13, -8, 10, 12, -9))
