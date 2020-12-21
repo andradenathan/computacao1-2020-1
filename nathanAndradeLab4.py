@@ -28,7 +28,6 @@ def SIGA(aluno):
 def quadrante(angulo, graus):
     """
     Define um quadrante dado dois parâmetros, seu ângulo em radiano ou em graus e um parâmetro para checar se é Verdadeiro (para graus) ou Falso (para radianos).
-
     :param angulo: int, float -> int, float
     :param graus: bool
     :return: int
