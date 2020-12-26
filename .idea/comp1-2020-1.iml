@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$/../../../../Estudos/Computação/curso-python" />
     <content url="file://$MODULE_DIR$/../../../../Estudos/Computação/curso-python-scripts" />
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (imersao-dados-scripts)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
