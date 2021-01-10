@@ -1,15 +1,18 @@
-def piramide_num(a, b):
-    if a < b:
-        lista = list(range(a, b + 1))
-        listaInvertida = list(range(a, b))[::-1]
-        piramide = lista + listaInvertida
-        return piramide
+def colchao(medidas, H, L):
+    """
+    Dado três dimensões de um colchão em centímetro, verifica se esse colchão passa pela porta de altura H e largura L.
+    :param medidas: list -> list
+    :param H: int -> int
+    :param L: int -> int
+    :return: bool -> bool
+    """
+    [A, B, C] = medidas
+    if A and B > H and L:
+        return False
 
     else:
-        lista = list(range(a, b))
-        listaInvertida = list(range(b, a + 1))[::-1]
-        listaNegativa = listaInvertida[-3]
-        piramide = lista + listaInvertida + listaNegativa
-        return listaNegativa
+        return True
 
-print(piramide_num(-3, 6))
+
+print(colchao([25, 200, 220], 200, 100))
+
