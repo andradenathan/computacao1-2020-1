@@ -11,9 +11,3 @@ def diff_datas(data1, data2):
     dataFinal = ((int(y2) * 365) + (int(m2) * 30) + int(d2)) - ((int(y1) * 365) + (int(m1) * 30) + int(d1))
 
     return dataFinal
-
-
-print(diff_datas(('10/11/1984'), ('7/4/2009')))
-
-
-

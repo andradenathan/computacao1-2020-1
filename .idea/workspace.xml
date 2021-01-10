@@ -20,10 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c934f287-3d70-4caf-84e9-4928edc1f354" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/comp1-2020-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/comp1-2020-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/e01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5MT/e01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5MT/e02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5MT/e03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5MT/e04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5MT/e05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5MT/e06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5MT/e07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nathanAndradeLab5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/lab4MT/e02.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4MT/e02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/lab4MT/e03.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4MT/e03.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab4/lab4MT/e05.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4MT/e05.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab4/lab4MT/e06.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4MT/e06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nathanAndradeLab3.py" beforeDir="false" afterPath="$PROJECT_DIR$/nathanAndradeLab3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +52,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1l7ih1NswVrMaQpsjiDvfOje8H9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,8 +64,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Estudos/Computação/curso-python-scripts" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.e06">
-    <configuration name="e02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USUÁRIO\Documents\UFRJ\2020.1\Computação I\comp1-2020-1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.e01 (1)">
+    <configuration name="asdf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="comp1-2020-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/lab4MT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/lab4MT/e02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asdf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="e05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="e01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="comp1-2020-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/lab4MT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/lab4MT/e05.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab5/e01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="e06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="e01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="comp1-2020-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/lab4MT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/lab3MT" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/lab4MT/e06.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab3/lab3MT/e01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="e06.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="e07" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="comp1-2020-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/lab4MT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/lab5MT" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/lab4MT/e06.2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab5/lab5MT/e07.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="e06tt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="nathanAndradeLab4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="comp1-2020-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +162,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/lab4MT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/lab4MT/e06tt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nathanAndradeLab4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.e06" />
-        <item itemvalue="Python.e05" />
-        <item itemvalue="Python.e06tt" />
-        <item itemvalue="Python.e06.2" />
-        <item itemvalue="Python.e02" />
+        <item itemvalue="Python.e01 (1)" />
+        <item itemvalue="Python.e07" />
+        <item itemvalue="Python.asdf" />
+        <item itemvalue="Python.nathanAndradeLab4" />
+        <item itemvalue="Python.e01" />
       </list>
     </recent_temporary>
   </component>
@@ -194,22 +213,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606954793142" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1609012156059">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1610245730003">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609012156059" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1609012156058">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610245730003" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1610245730003">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609012156058" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1609012156058">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610245730003" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1610245730003">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609012156058" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1609012156058">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610245730003" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1610245730003">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609012156058" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610245730003" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1606954794441">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

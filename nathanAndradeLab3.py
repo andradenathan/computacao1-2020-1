@@ -54,7 +54,7 @@ def data(dia, mes, ano):
     :param ano: int
     :return: str
     """
-    if dia or mes or ano <= 0 :
+    if dia or mes or ano <= 0:
         return 'Data: ' + str(13)+str('/')+str(12)+str('/')+str(2020)
 
     else:
@@ -147,3 +147,4 @@ def salarioLiquido(salarioBruto):
 
 # EXERCÍCIO 06
 # salarioLiquido(2000)
+
