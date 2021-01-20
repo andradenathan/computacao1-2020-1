@@ -11,5 +11,3 @@ def insere(lista_numero, n):
     listaOrganizada = sorted(lista_numero)
 
     return listaOrganizada
-
-print(insere([1, 4, 5, 9, 1000, 22], 3))
