@@ -20,19 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c934f287-3d70-4caf-84e9-4928edc1f354" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exemplos/exemplo06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemplos/exemplo07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemplos/exemplo08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/e01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/e02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/lab7MT/e02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/lab7MT/e03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/lab7MT/e04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/lab7MT/e05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/lab7MT/e06.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab7/lab7MT/e01.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/lab7MT/e01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nathanAndradeLab7.py" beforeDir="false" afterPath="$PROJECT_DIR$/nathanAndradeLab7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7/lab7MT/e03.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/lab7MT/e03.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,22 +201,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611244200778" />
-    <state width="1345" height="174" key="GridCell.Tab.0.bottom" timestamp="1611530682497">
+    <state width="1345" height="173" key="GridCell.Tab.0.bottom" timestamp="1611533016999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611530682497" />
-    <state width="1345" height="174" key="GridCell.Tab.0.center" timestamp="1611530682497">
+    <state width="1345" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611533016999" />
+    <state width="1345" height="173" key="GridCell.Tab.0.center" timestamp="1611533016999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611530682497" />
-    <state width="1345" height="174" key="GridCell.Tab.0.left" timestamp="1611530682497">
+    <state width="1345" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611533016999" />
+    <state width="1345" height="173" key="GridCell.Tab.0.left" timestamp="1611533016999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611530682497" />
-    <state width="1345" height="174" key="GridCell.Tab.0.right" timestamp="1611530682497">
+    <state width="1345" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611533016999" />
+    <state width="1345" height="173" key="GridCell.Tab.0.right" timestamp="1611533016999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611530682497" />
+    <state width="1345" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611533016999" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1611254600672">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
