@@ -6,16 +6,13 @@ def faltante(lista):
     :return: int -> int
     """
     contador = 0
-    listaNumeros = list(range(lista[0], len(lista) + 1))
-    numero = 0
+    listaOrdenada = sorted(lista)
 
     while contador < len(lista):
-        if listaNumeros[contador] not in lista:
-            numero += listaNumeros[contador]
+        if contador + 1 == listaOrdenada[contador]:
+            contador += 1
 
+        else:
+            return contador + 1
 
-        contador += 1
-
-    return numero
-
-print(faltante([1, 2, 3]))
+    return contador + 1
