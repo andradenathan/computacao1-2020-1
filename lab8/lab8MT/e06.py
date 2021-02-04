@@ -1,16 +1,15 @@
 def lingua_p(palavra):
+    """
+    Adiciona uma letra p antes da vogal de uma dada palavra.
+    :param palavra: str -> str
+    :return: str -> str
+    """
     minusculo = palavra.lower()
     nova_palavra = ''
-    vogais = 'aeiouãéíóú'
-    vogal_palavra = ''
-    for p in range(0, len(palavra)):
-        if minusculo[p] in vogais:
-            vogal_palavra += minusculo[p]
-            nova_palavra += minusculo[p] + 'p' + vogal_palavra[:2]
-
-        else:
-            nova_palavra += minusculo[p]
+    vogais = 'aeiouãáéíóú'
+    for p in minusculo:
+        nova_palavra += p
+        if p in vogais:
+            nova_palavra += 'p' + p
 
     return nova_palavra
-
-print(lingua_p('advirdes'), 'apadvipirdepes')

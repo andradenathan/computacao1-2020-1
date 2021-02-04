@@ -6,12 +6,13 @@ def serie(n):
     :param n: int -> int
     :return: float -> float
     """
+    somatoria = 0
     for k in range(0, n + 1):
         somatoria = (-1) ** k / (2 * k + 1)
 
     return somatoria
 
-def erro(n, termos = 0):
+def erro_serie(n = 0.01):
     """
     Calcula a soma da série com erro inferior a 0,01 e retorna quantos termos foram somados enquanto o erro era
     menor do que 0,01.
@@ -19,16 +20,13 @@ def erro(n, termos = 0):
     :param termos: int -> int
     :return: tuple -> tuple
     """
-    numeroMaxSequencia = pi / 4
-    diferenca = fabs(serie(n) - numeroMaxSequencia)
-    for i in range(0, n + 1):
-        if serie(i) > 0.01 + numeroMaxSequencia:
-            termos += n + 1
+    contador = 0
+    soma = serie(n)
+    while fabs(pi / 4 - soma) > n:
+        contador += 1
+        soma = serie(contador)
 
-        else:
-            return diferenca, termos
-
-    return diferenca, termos
+    return soma, contador
 
 def buscar(lista, nome):
     """
