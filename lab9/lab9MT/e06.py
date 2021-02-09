@@ -5,15 +5,9 @@ def ordena_por_insercao(lista):
     :param list: list -> list
     :return: list -> list
     """
-    for i in range(0, len(lista)):
-        numero = lista[i]
-        j = i - 1
-        while j >= 0 and numero < lista[j]:
-            lista[j + 1] = lista[j]
-            j -= 1
-
-        lista[j + 1] = numero
+    for i in range(1, len(lista)):
+        for j in range(i, 0, -1):
+            if lista[j] < lista[j - 1]:
+                lista[j], lista[j - 1] = lista[j - 1], lista[j]
 
     return lista
-
-print(ordena_por_insercao([0, 2, 4, 3, 6, 7, 8, 22, 10, 35, 15, 18]))
