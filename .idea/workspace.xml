@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c934f287-3d70-4caf-84e9-4928edc1f354" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../Estudos/Computação/python-oop/conta2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Estudos/Computação/python-oop/conta.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Estudos/Computação/python-oop/conta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Estudos/Computação/python-oop/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Estudos/Computação/python-oop/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exemplos/exemplo11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/e01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/e02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/e03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nathanAndradeLab10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/comp1-2020-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/comp1-2020-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab9/lab9MT/e06.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab9/lab9MT/e06.py" afterDir="false" />
     </list>
@@ -51,7 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Estudos/Computação/python-oop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Estudos/Computação/uri-python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -61,8 +66,8 @@
       <recent name="C:\Users\USUÁRIO\Documents\UFRJ\2020.1\Computação I\comp1-2020-1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.e06">
-    <configuration name="e02 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.e01">
+    <configuration name="1018" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="comp1-2020-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,11 +75,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab9/lab9MT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../Estudos/Computação/uri-python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab9/lab9MT/e02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../Estudos/Computação/uri-python/1018.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1019" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="comp1-2020-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../Estudos/Computação/uri-python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../Estudos/Computação/uri-python/1019.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="e01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="comp1-2020-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab10/e01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="e02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="comp1-2020-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab10/e02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,74 +159,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab9/lab9MT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab9/lab9MT/e03.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="e04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="comp1-2020-1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab9/lab9MT" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab9/lab9MT/e04.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="e05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="comp1-2020-1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab9/lab9MT" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab9/lab9MT/e05.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="e06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="comp1-2020-1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab9/lab9MT" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab9/lab9MT/e06.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab10/e03.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.e06" />
-        <item itemvalue="Python.e05" />
-        <item itemvalue="Python.e04" />
+        <item itemvalue="Python.e01" />
         <item itemvalue="Python.e03" />
-        <item itemvalue="Python.e02 (1)" />
+        <item itemvalue="Python.e02" />
+        <item itemvalue="Python.1018" />
+        <item itemvalue="Python.1019" />
       </list>
     </recent_temporary>
   </component>
@@ -209,26 +214,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="526" y="254" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1612361234009" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1611244200778">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1612980553455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611244200778" />
-    <state width="1345" height="169" key="GridCell.Tab.0.bottom" timestamp="1612840146750">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612980553455" />
+    <state width="1345" height="167" key="GridCell.Tab.0.bottom" timestamp="1613410540949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612840146750" />
-    <state width="1345" height="169" key="GridCell.Tab.0.center" timestamp="1612840146750">
+    <state width="1345" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1613410540949" />
+    <state width="1345" height="167" key="GridCell.Tab.0.center" timestamp="1613410540949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612840146750" />
-    <state width="1345" height="169" key="GridCell.Tab.0.left" timestamp="1612840146750">
+    <state width="1345" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1613410540949" />
+    <state width="1345" height="167" key="GridCell.Tab.0.left" timestamp="1613410540949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612840146750" />
-    <state width="1345" height="169" key="GridCell.Tab.0.right" timestamp="1612840146750">
+    <state width="1345" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1613410540949" />
+    <state width="1345" height="167" key="GridCell.Tab.0.right" timestamp="1613410540949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612840146750" />
+    <state width="1345" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1613410540949" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1611254600672">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -245,10 +250,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611254600672" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1606954794441">
+    <state x="184" y="8" key="SettingsEditor" timestamp="1612980556535">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606954794441" />
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1612980556535" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1612729369419">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

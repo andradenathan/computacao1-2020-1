@@ -3,10 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/../../../../Estudos/Computação/curso-python" />
     <content url="file://$MODULE_DIR$/../../../../Estudos/Computação/curso-python-scripts" />
+    <content url="file://$MODULE_DIR$/../../../../Estudos/Computação/uri-python" />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.8 (imersao-dados-scripts)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="python-oop" />
-    <orderEntry type="module" module-name="python-oop" />
   </component>
 </module>

@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/comp1-2020-1.iml" filepath="$PROJECT_DIR$/.idea/comp1-2020-1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../../Estudos/Computação/python-oop/.idea/python-oop.iml" filepath="$PROJECT_DIR$/../../../../Estudos/Computação/python-oop/.idea/python-oop.iml" />
     </modules>
   </component>
 </project>
