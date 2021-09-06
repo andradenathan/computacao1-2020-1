@@ -1,4 +1,4 @@
-# Disciplina de Computação I do BCMT feito em 2020.1
+# Computação I (2020.1) - Autor: Nathan Andrade
 Nesta disciplina de Computação I do BCMT - UFRJ, os seguintes tópicos foram abordados:
 - Expressões, variáveis e atribuições
 - Funções, definição/chamada de funções
